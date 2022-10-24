@@ -26,7 +26,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @author sotobotero
  */
 @RestController
-@RequestMapping("/transaction")
+@RequestMapping("")
 public class TransactionRestController {
     
     @Autowired
