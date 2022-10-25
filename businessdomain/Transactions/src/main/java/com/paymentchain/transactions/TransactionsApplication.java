@@ -18,10 +18,10 @@ public class TransactionsApplication {
 		SpringApplication.run(TransactionsApplication.class, args);
 	}
         
-         @Bean
+       /*  @Bean
     public Docket productApi() {
         return new Docket(DocumentationType.SWAGGER_2).select()
                 .apis(RequestHandlerSelectors.basePackage("com.paymentchain")).build();
-    }
+    }*/
 
 }
